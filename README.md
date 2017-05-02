@@ -4,9 +4,9 @@ Leaflet storymap with scroll-driven navigation for narrative and point markers f
 Customised from Jack Dougherty's leaflet-storymap
 
 ## To do:
--Add geoserver support
--Add customised markers
--Add charting summaries to description
+- Add geoserver support
+- Add customised markers
+- Add charting summaries to description
 
 ### Features
 - Scroll-driven navigation, using screen swipe, trackpad, or keyboard down-arrow. Initial map displays all point markers.
