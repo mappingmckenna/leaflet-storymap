@@ -1,1 +1,119 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"id":1,"chapter":"Hartford Public High School 1847","zoom":15,"image":"img/1847-HPHS-Catalog1904p164.jpg","source-credit":"Source: HPHS Quadrennial Catalogue 1904","source-link":"https://www.flickr.com/photos/56513965@N06/21047067205","description":"This scroll-driven storymap is built on an open-source Leaflet template. The design is ideal for telling a story that narrates different locations on a map. Or users can click any marker point to go directly to the chapter narrative."},"geometry":{"type":"Point","coordinates":[-72.6782,41.7676]}},{"type":"Feature","properties":{"id":2,"chapter":"Hartford Public High School 1905","zoom":17,"image":"img/1905-HPHS-postcard.jpg","source-credit":"Source: Flickr","source-link":"https://flic.kr/p/FNxWf8","description":"See directions to create your own storymap. Insert your text, map points, zoom levels, and image links in an easy-to-edit spreadsheet template, named data.csv. Then drag this file into the http://geojson.io tool to convert it into a map file, named data.geojson. "},"geometry":{"type":"Point","coordinates":[-72.6848,41.7677]}},{"type":"Feature","properties":{"id":3,"chapter":"Hartford Public High School 2011","zoom":17,"image":"https://farm6.staticflickr.com/5693/20860554099_1a9466a11e_c.jpg","source-credit":"Source: Carlos Velazquez/Flickr","source-link":"https://flic.kr/p/xMnMXR","description":"Images can be uploaded a local subfolder, or pulled from an external URL (such as this photo on a Flickr server). They are automatically resized to fit into the storymap."},"geometry":{"type":"Point","coordinates":[-72.701,41.7654]}},{"type":"Feature","properties":{"id":4,"chapter":"Bradley Airport, Windsor Locks","zoom":14,"image":"img/BradleyAirport.jpg","source-credit":"Source: public domain/Wikimedia","source-link":"https://commons.wikimedia.org/wiki/File:Airport_2.jpg#/media/File:Airport_2.jpg","description":"The Leafet 1.x code includes a 'fly to' feature that animates the distance traveled from one map point to the next. Users with some coding skills can easily modify the background map, or add map overlays, or extend the code by adding new features."},"geometry":{"type":"Point","coordinates":[-72.687984,41.9387]}},{"type":"Feature","properties":{"id":5,"chapter":"Trinity College, Hartford","zoom":15,"image":"img/TrinityCollege.jpg","source-credit":"Source: Trinity College/edX","source-link":"https://www.edx.org/sites/default/files/trinity1.jpg","description":"To learn how to create your own Leaflet storymap from this template, click on 'View code in GitHub' at the bottom of the map, or go to Leaflet Templates section of the Data Visualization For All book, at http://DataVizForAll.org."},"geometry":{"type":"Point","coordinates":[-72.69,41.747]}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "event": "",
+        "zoom": 4,
+        "image": "img/flood.jpg",
+        "source-credit": "",
+        "source-link": "",
+        "description": "This map shows a summary of the events impacted iag and our customers over the years. Scroll to view the events in chronological order, or pan the map to see where we've been hit by major weather events."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.89,
+          -25.54
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "event": "1999 Flood",
+        "zoom": 15,
+        "image": "img/flood.jpg",
+        "source-credit": "Source: HPHS Quadrennial Catalogue 1904",
+        "source-link": "https://www.flickr.com/photos/56513965@N06/21047067205",
+        "description": "This flood was big. IT was a yuuuuge flood. There was so much water. Water every where. This flood beat all the floods."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.195,
+          -33.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "event": "2003 Big Flood",
+        "zoom": 17,
+        "image": "img/flood.jpg",
+        "source-credit": "Source: Flickr",
+        "source-link": "https://flic.kr/p/FNxWf8",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum nunc id pellentesque ultrices. Nam nec volutpat ex. Proin tortor purus, bibendum vel mauris eu, iaculis iaculis tellus. Vivamus porta nisl sit amet libero tempor suscipit vitae et felis. Pellentesque vitae fringilla augue. Morbi hendrerit, velit nec convallis euismod, leo tortor dignissim nibh, et faucibus felis turpis eu ex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.68,
+          -30.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "event": "2007 Bigger Flood",
+        "zoom": 17,
+        "image": "img/flood.jpg",
+        "source-credit": "Source: Carlos Velazquez/Flickr",
+        "source-link": "https://flic.kr/p/xMnMXR",
+        "description": "Morbi dictum elit augue, eget vestibulum lectus pretium aliquet. Nunc et vulputate ante. Curabitur et interdum lacus, quis aliquam neque. Nunc bibendum commodo libero, eu pellentesque orci varius at."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.42,
+          -25
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "event": "2014 Biggest Flood",
+        "zoom": 14,
+        "image": "img/flood.jpg",
+        "source-credit": "Source: public domain/Wikimedia",
+        "source-link": "https://commons.wikimedia.org/wiki/File:Airport_2.jpg#/media/File:Airport_2.jpg",
+        "description": "Aliquam euismod ultrices ligula ac pellentesque. Quisque non malesuada lacus. Sed convallis tincidunt sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.99,
+          -16.1
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "event": "2016 Super Flood",
+        "zoom": 15,
+        "image": "img/flood.jpg",
+        "source-credit": "Source: Trinity College/edX",
+        "source-link": "https://www.edx.org/sites/default/files/trinity1.jpg",
+        "description": "Fusce et orci quis nunc sodales placerat ac eu magna. Sed non nunc in nisl fringilla condimentum. Aenean facilisis dictum convallis. Praesent sed porta odio. Nulla nec ante quis nunc maximus imperdiet vitae eu mi. Cras commodo, tellus in ultrices laoreet, magna augue condimentum massa, sed maximus tortor urna ut mi."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121,
+          -30
+        ]
+      }
+    }
+  ]
+}
